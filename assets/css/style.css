@@ -38,6 +38,16 @@
     font-size: 1.4rem;
     margin-bottom: 1.0rem; /* Adds space below the text */
   }
+
+  header p a.btn {
+  color: #ffd369;       /* Gold/yellow link */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;     /* Bold text */
+}
+
+header p a.btn:hover {
+  text-decoration: underline;
+}
   
   header nav a {
     color: #fff;
